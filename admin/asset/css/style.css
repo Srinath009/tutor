@@ -1,0 +1,281 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	font-family: railway,sans-sarif;
+	font-weight: 400px;
+	position: relative;
+}
+/**********section-navigation**********/
+.navbar-default
+{
+	background: #fff;
+	border:none;
+	box-shadow:0px 2px 8px 0px;
+	margin: 0px !important;
+	padding: 0px;
+}
+.navbar-default .navbar-brand .fa-bus
+{
+	color: #93ca3a;
+	font-size: 30px;
+}
+.navbar-default .navbar-brand abbr
+{
+	color: #93ca3a;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 25px;
+}
+.navbar-default .navbar-brand abbr:hover
+{
+	color: black;
+	font-weight: bold;
+	/*font-family: broadway;*/
+	font-size: 25px;
+}
+.navbar-default .navbar-nav li a
+{
+	font-size: 17px;
+	font-weight: bold;
+	font-family: sans-serif;
+	line-height: 30px;
+	/*color:#93ca3a;*/
+	background-color: transparent;
+}
+.navbar-default .navbar-nav li a:hover
+{
+	color:#93ca3a;
+}
+
+/*.navbar-default .navbar-nav li a:hover
+{
+	border-bottom: 2px solid #93ca3a;
+}*/
+
+/**********section-main**********/
+#a1 .main #con-fluid-1
+{
+	height:600px;
+	margin-top: 60px;
+	background-image: url(../image/buses.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#a1 .main .container-fluid .container form
+{
+	font-family: sans-serif;
+	background-color: white;
+	margin-top: 80px;
+	border:1px solid #fff;
+	border-radius: 5%;
+	padding: 10%;
+}
+#a1 .main .container-fluid .container form h4
+{
+	font-size:30px;
+	border-bottom: 2px solid #ccc;
+}
+#a1 .main .container-fluid .container form h5 strong
+{
+	color:#93ca3a;
+
+}
+/**********section-about**********/
+#a2
+{
+	/*width: 1300px;height: 500px;
+	background-color: yellow;
+	/*margin-top:20px;*/
+	/*margin-bottom: 40px;*/
+}
+#a2 .about h2
+{
+	margin-top: 60px;
+}
+#a2 .about .row .col-md-9 p
+{
+	font-size: 16px;
+	padding: 5px;
+}
+#a2 .about .row .col-md-3 .fa-globe
+{
+	font-size: 200px;
+
+}
+/**********section-routes**********/
+/*#a3
+{
+	width: 1300px;height: 500px;
+	background-color: yellow;
+	/*margin: 20px;*/
+/*}*/
+#a3 .routes #con-fluid-3
+{
+	margin-top: 60px;
+	background-image: url(../image/bodyy.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/*#a3 .routes .container-fluid .row 
+{
+	margin-bottom: 20px;
+}*/
+#a3 .routes .container-fluid .row h2
+{
+	margin-top: 60px;
+}
+#a3 .routes .container-fluid .row .col-md-3
+{
+
+	background: transparent;
+	background-color: #E8E6E6;
+	margin: 40px 48px 50px 48px;
+	border-radius: 5%
+}
+#a3 .routes .container-fluid .row .col-md-3 .city
+{
+	font-size: 18px;
+}
+#a3 .routes .container-fluid .row .col-md-3 img
+{
+	margin: 20px auto;	
+}
+#a3 .routes .container-fluid .row .col-md-3 p
+{
+	padding: 10px;	
+}
+#a3 .routes .container-fluid .row .col-md-3 a
+{
+	margin-bottom: 10px;
+}
+/**********section-service**********/
+#a4
+{
+	/*width: 1300px;height: 500px;*/
+	background-color: #E8E6E6;
+	margin: 0px 0px;
+}
+#a4 .service .row
+{
+	margin: 20px 0px;
+}
+#a4 .service .row h2
+{
+	margin-top: 20px;
+}
+#a4 .service .row .col-md-5
+{
+	margin-top: 5px;
+	padding: 20px;
+	/*background-color: green;*/
+}
+#a4 .service .row .col-md-5 h3
+{
+	text-decoration: underline;
+}
+#a4 .service .row .col-md-5 p
+{
+	font-size: 16px;
+	padding: 10px;
+}
+
+/**********section-media**********/
+#a5
+{
+	/*width: 1300px;height: 500px;
+	background-color: yellow;
+	/*margin: 20px;*/
+}
+#a5 .media .container-fluid .container
+{
+	margin-bottom: 40px;
+	/*background-color: orange;*/
+
+}
+#a5 .media .container-fluid .row h2
+{
+	margin: 60px 0px 40px 0px;
+}
+#a5 .media .container-fluid .row h4
+{
+	text-decoration: underline;
+}
+#a5 .media .container-fluid .row #lower_border
+{
+	/*background-color: orange;*/
+	border-bottom: 2px solid gray;
+}
+#a5 .media .container-fluid .row .col-md-4 img
+{
+	background-color: white;
+	margin: 20px auto;
+}
+#a5 .media .container-fluid .row .col-md-4 p
+{
+	font-size: 18px;
+}
+/**********section-contect**********/
+#a6
+{
+
+	/*width: 1300px;height: 500px;
+	background-color: yellow;
+	/*margin: 20px;*/
+}
+#a6 .contect #con-fluid-6
+{
+	padding: 20px;
+}
+#a6 .contect #con-fluid-6 label
+{
+	font-size: 18px;
+	/*background-color:#E8E6E6;*/
+}
+#a6 .contect .container-fluid .row
+{
+	margin-top: 40px;
+}
+#a6 .contect .container-fluid .row h3
+{
+	margin-bottom: 60px;
+}
+#a6 .contect .container-fluid .row .col-md-6  iframe
+{
+	border-radius: 3%;
+}
+#a6 .contect .container-fluid .row .col-md-12 p
+{
+	font-size: 17px;
+}
+#a6 .contect .container-fluid .row .col-md-12 p strong a
+{
+	/*text-decoration: none;*/
+	color: #93ca3a;
+}
+#a6 .contect .container-fluid .row .col-md-12 i
+{
+	margin: 5px;
+	color: gray;
+}
+/************top-btn************/
+#btn_top
+{
+	position:absolute;
+	top:97%;
+	left: 80%;
+}
+#btn_top a
+{
+	color: white;
+}
+#btn_top a:hover
+{
+	text-decoration: none;
+}
+/**********end***************/
